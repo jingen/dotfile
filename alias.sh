@@ -53,3 +53,4 @@ take (){
     cd $1
 }
 
+alias m="mongo"
