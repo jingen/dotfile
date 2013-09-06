@@ -10,3 +10,6 @@ on my zsh
 color theme
 
 plugins
+
+~/.ssh/config
+ln -s /Users/jingenlin/bin/dotfile/ssh_config ~/.ssh/config

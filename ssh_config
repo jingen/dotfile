@@ -1,0 +1,5 @@
+Host cims
+    Hostname access.cims.nyu.edu
+    User jl4527
+    Port 22
+    
