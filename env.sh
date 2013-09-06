@@ -4,3 +4,6 @@ export PATH=~/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Hom
 
 [[ -s "/Users/jingenlin/.rvm/scripts/rvm" ]] && source "/Users/jingenlin/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+autoload -Uz edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd 'v' edit-command-line
