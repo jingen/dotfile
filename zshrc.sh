@@ -49,5 +49,6 @@ source $ZSH/oh-my-zsh.sh
 #export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 source "/Users/jingenlin/bin/dotfile/env.sh"
+source "/Users/jingenlin/bin/dotfile/history_zsh.sh"
 source "/Users/jingenlin/bin/dotfile/alias.sh"
 
