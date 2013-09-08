@@ -14,8 +14,6 @@ alias coj="cd ~/jobs/cakephp/Open-Assembly/app/webroot/js"
 alias cop="cd ~/jobs/cakephp/Open-Assembly/app/webroot/js/player"
 alias copv="cd ~/jobs/cakephp/Open-Assembly/app/webroot/js/player/views"
 alias flp="cd /Users/jingenlin/jobs/web/exams/flp"
-#alias gl="git pull"
-#alias gp="git push"
 
 alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
 function rubys {
@@ -26,7 +24,7 @@ function rubys {
 alias phps="open http://localhost:8000 && php -S localhost:8000"
 
 alias tmp="cd /Users/jingenlin/jobs/tmp"
-alias vim="mvim"
+alias vim="mvim -v"
 alias vi="mvim -v"
 alias v="mvim -v"
 alias ru="cd /Users/jingenlin/Documents/coursesVideo/ruby/rubyTuts/code"
@@ -54,3 +52,4 @@ take (){
 }
 
 alias m="mongo"
+alias lh="ls -lAh"
