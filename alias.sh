@@ -26,7 +26,7 @@ alias phps="open http://localhost:8000 && php -S localhost:8000"
 alias tmp="cd /Users/jingenlin/jobs/tmp"
 alias vim="mvim -v"
 alias vi="mvim -v"
-alias v="mvim -v"
+alias v="mvim"
 alias ru="cd /Users/jingenlin/Documents/coursesVideo/ruby/rubyTuts/code"
 alias ra="cd /Users/jingenlin/Documents/coursesVideo/ruby/ridingbyrails/code"
 alias stage="ssh ubuntu@54.245.237.236"
@@ -53,3 +53,8 @@ take (){
 
 alias m="mongo"
 alias lh="ls -lAh"
+
+alias t="tmux"
+alias tn="tmux new -s"
+alias ta="tmux attach -t"
+alias ts="tmux switch -t"
