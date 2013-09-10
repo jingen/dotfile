@@ -1,3 +1,5 @@
+https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard.git
+
 Compile reattach-to-user-namespace from this repository.
 Make it available in your PATH (or use the absolute pathname in the next step).
 

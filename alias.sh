@@ -58,3 +58,5 @@ alias t="tmux"
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
 alias ts="tmux switch -t"
+
+alias tester="cd /Users/jingenlin/jobs/tech/Tester"
