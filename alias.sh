@@ -53,6 +53,7 @@ take (){
 
 alias m="mongo"
 alias lh="ls -lAh"
+alias tester="cd /Users/jingenlin/jobs/tech/Tester"
 
 alias t="tmux"
 alias tn="tmux new -s"
