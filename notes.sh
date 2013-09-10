@@ -16,3 +16,5 @@ ln -s /Users/jingenlin/bin/dotfile/ssh_config ~/.ssh/config
 
 ln -sf /Users/jingenlin/bin/dotfile/jelin.zsh-theme ~/.oh-my-zsh/themes/rkj-repos.zsh-theme
 ln -sf /Users/jingenlin/bin/dotfile/util/tmux.conf /Users/jingenlin/.tmux.conf
+
+tmux: ctrl+b + [ ; option + up arrow/ down arrow # scroll back to see the result
