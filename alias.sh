@@ -24,7 +24,7 @@ function rubys {
 alias phps="open http://localhost:8000 && php -S localhost:8000"
 
 alias tmp="cd /Users/jingenlin/jobs/tmp"
-alias vim="mvim -v"
+#alias vim="mvim -v"
 alias vi="mvim -v"
 alias v="mvim"
 alias ru="cd /Users/jingenlin/Documents/coursesVideo/ruby/rubyTuts/code"
