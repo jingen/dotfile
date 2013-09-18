@@ -69,3 +69,5 @@ alias hfind="find . -name '*.html'|xargs grep -n"
 alias sfind="find . -name '*.*css'|xargs grep -n"
 alias cofind="find . -name '*.coffee'|xargs grep -n"
 alias reloadsh="source $HOME/.zshrc"
+
+alias clj="java -cp clojure-1.5.1.jar clojure.main"
