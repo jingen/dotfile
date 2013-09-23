@@ -59,7 +59,7 @@ alias t="tmux"
 alias tn="tmux new -s"
 alias ta="tmux attach -t"
 alias ts="tmux switch -t"
-alias tsa="/Users/jingenlin/bin/dotfile/util/tmux-session.sh save"
+alias tsa="rm $HOME/.tmux-session && /Users/jingenlin/bin/dotfile/util/tmux-session.sh save"
 alias tre="/Users/jingenlin/bin/dotfile/util/tmux-session.sh restore"
 
 alias jsfind="find . -name '*.js'|xargs grep -n"
