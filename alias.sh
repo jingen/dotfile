@@ -71,3 +71,4 @@ alias coffeefind="find . -name '*.coffee'|xargs grep -n"
 alias reloadsh="source $HOME/.zshrc"
 alias dot="cd $HOME/bin/dotfile"
 alias stage2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@54.244.178.150"
+alias bower='noglob bower'
