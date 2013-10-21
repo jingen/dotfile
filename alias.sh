@@ -72,3 +72,4 @@ alias reloadsh="source $HOME/.zshrc"
 alias dot="cd $HOME/bin/dotfile"
 alias stage2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@54.244.178.150"
 alias bower='noglob bower'
+alias aws="ssh -i ~/.ssh/jingenlin.pem ubuntu@54.200.209.126"
