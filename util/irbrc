@@ -20,11 +20,12 @@ def paste
 end
 
 def hup
+  Hirb.disable
   Hirb.enable
 end
 
 def hdown
-  Hirb.disable
+  AwesomePrint.irb!
 end
 
 def fancy
