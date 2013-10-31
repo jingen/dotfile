@@ -11,10 +11,68 @@ def y(obj)
   puts obj.to_yaml
 end
 
+def copy(obj)
+  Clipboard.copy 'foobar'
+end
+
+def paste
+  Clipboard.paste
+end
+
+def hup
+  Hirb.enable
+end
+
+def hdown
+  Hirb.disable
+end
+
+def fancy
+  require 'fancy_irb'
+rescue Gem::LoadError
+  puts "No fancy_irb gem installed"
+  #FancyIrb.start
+end
+
+def wirb
+  require 'wirb'
+rescue Gem::LoadError
+  puts "No wirb gem installed"
+end
+
 class Object
   def v(method_name)
     file, line = method(method_name).source_location
     `mvim "#{file}" +#{line}`
   end
+  # Object print
+  def op
+    ap self
+  end
 end
+
+def gexist?(name)
+    Gem::Specification.find_by_name(name)
+rescue Gem::LoadError
+  false
+end
+
+begin
+  require 'Clipboard'
+rescue LoadError
+end
+
+if defined? Rails
+  begin
+    require 'hirb'
+    Hirb.enable
+  rescue LoadError
+  end
+  begin
+    require 'awesome_print'
+    AwesomePrint.irb!
+  rescue LoadError
+  end
+end
+
 
