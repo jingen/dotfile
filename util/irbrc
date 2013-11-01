@@ -12,7 +12,7 @@ def y(obj)
 end
 
 def copy(obj)
-  Clipboard.copy 'foobar'
+  Clipboard.copy obj
 end
 
 def paste
