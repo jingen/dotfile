@@ -39,6 +39,9 @@ rescue Gem::LoadError
   #FancyIrb.start
 end
 
+def r
+  reload!
+end
 def wirb
   require 'wirb'
 rescue Gem::LoadError
