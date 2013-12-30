@@ -10,7 +10,9 @@ def load_helper
   include ActionView::Helpers
   include ApplicationHelper
 end
-
+def mf
+  require 'methodfinder'
+end
 #ActiveRecord::Base.logger.level = 1 if defined? ActiveRecord::Base
 
 def y(obj)
@@ -84,5 +86,4 @@ if defined? Rails
   rescue LoadError
   end
 end
-
 
