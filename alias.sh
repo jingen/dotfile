@@ -74,5 +74,3 @@ alias stage2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@50.112.91
 alias bower='noglob bower'
 alias aws="ssh -i ~/.ssh/jingenlin.pem ubuntu@54.200.209.126"
 alias prod2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@54.203.253.95"
-alias app="cd /Users/jingenlin/jobs/tech/Tester/rails/myapps"
-
