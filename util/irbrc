@@ -5,6 +5,14 @@ IRB.conf[:PROMPT_MODE] = :SIMPLE
 IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
 
+def load_helper
+  include Rails.application.routes.url_helpers
+  include ActionView::Helpers
+  include ApplicationHelper
+end
+def mf
+  require 'methodfinder'
+end
 #ActiveRecord::Base.logger.level = 1 if defined? ActiveRecord::Base
 
 def y(obj)
@@ -78,5 +86,4 @@ if defined? Rails
   rescue LoadError
   end
 end
-
 
