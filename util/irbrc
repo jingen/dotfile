@@ -69,6 +69,14 @@ rescue Gem::LoadError
   false
 end
 
+def apup
+  begin
+    require 'awesome_print'
+    AwesomePrint.irb!
+  rescue LoadError
+  end
+end
+
 begin
   require 'Clipboard'
 rescue LoadError
