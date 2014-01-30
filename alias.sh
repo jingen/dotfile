@@ -74,5 +74,6 @@ alias stage2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@50.112.91
 alias bower='noglob bower'
 alias aws="ssh -i ~/.ssh/jingenlin.pem ubuntu@54.200.209.126"
 alias prod2="ssh -i ~/.ssh/openassembly_staging_privatekey.pem ubuntu@54.203.253.95"
+alias prod3="ssh -i ~/.ssh/productionkey.pem ubuntu@54.184.79.175"
 alias mysql="/Applications/MAMP/Library/bin/mysql -u root -proot"
 alias app="/Users/jingenlin/jobs/tech/linjingen"
